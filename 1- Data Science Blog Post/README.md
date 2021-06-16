@@ -36,6 +36,6 @@ Project's Jupyter Notebook:
 
 ## Acknowledgements
 ### Airbnb Open Data
-The datasets used in this repository were taken from Airbnb's Open Data.
-Seattle: [dataset link](https://www.kaggle.com/airbnb/seattle/data)
+The datasets used in this repository were taken from Airbnb's Open Data.  
+Seattle: [dataset link](https://www.kaggle.com/airbnb/seattle/data)  
 Boston: [dataset link](https://www.kaggle.com/airbnb/boston)
