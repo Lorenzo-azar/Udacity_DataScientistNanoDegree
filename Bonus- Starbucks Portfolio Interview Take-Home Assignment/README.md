@@ -1,4 +1,4 @@
-# Starbucks Portfolio Exercise - Classification Problem
+# Starbucks Portfolio Exercise
 ---
 For a full description of what Starbucks provides to candidates see the [instructions available here](https://drive.google.com/file/d/18klca9Sef1Rs6q8DW4l7o349r8B70qXM/view).
 
@@ -34,11 +34,11 @@ Shows how much is made (or lost) by sending out the promotion.
 
 ---
 ### Instructions
-1. download the libraries needed
+Download the libraries needed
 
     pip install -r requirements.txt
 
-2. Run the notebook Starbucks.ipynb
+Run the notebook Starbucks.ipynb
 
 ### Folder Structure
     .
