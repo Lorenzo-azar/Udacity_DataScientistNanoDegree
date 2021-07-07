@@ -1,6 +1,7 @@
 # Starbucks Portfolio Exercise - Classification Problem
 ---
 For a full description of what Starbucks provides to candidates see the [instructions available here](https://drive.google.com/file/d/18klca9Sef1Rs6q8DW4l7o349r8B70qXM/view).
+
 ---
 ## Description
 
@@ -9,6 +10,8 @@ For a full description of what Starbucks provides to candidates see the [instruc
 - Test an advertising promotion to see if it would bring more customers to purchase a specific product priced at $10. (Each promotion costs the company 0.15 to send out.)
 - It consists of about 120,000 data points split in a 2:1 ratio among training and test files.
 - Each data point includes one column indicating if the individual purchased that product. Aditionally, each individual has 7 additional features provided abstractly as V1-V7
+
+---
 ### Objective
 - Use the training data to understand what patterns in V1-V7 indicate that a promotion should be provided to a user.
 - Try to limit the promotion only to those that are most receptive to it.
@@ -16,7 +19,7 @@ For a full description of what Starbucks provides to candidates see the [instruc
 ####  Incremental Response Rate (IRR)
 Shows how many more customers purchased the product with the promotion, as compared to if they didn't receive the promotion.
 
-![alt IRR](https://github.com/Lorenzo-azar/Udacity_DataScientistNanoDegree/Bonus- Starbucks Portfolio Interview Take-Home Assignment/blob/master/data/readme_images/IRR.jpg)
+![alt IRR](https://github.com/Lorenzo-azar/Udacity_DataScientistNanoDegree/blob/main/Bonus-%20Starbucks%20Portfolio%20Interview%20Take-Home%20Assignment/data/readme_images/IRR.jpg)
 
 Where:
 1. treat --> treatment group - group that received the promotion
@@ -27,6 +30,21 @@ Where:
 #### Net Incremental Revenue (NIR)
 Shows how much is made (or lost) by sending out the promotion.
 
-![alt IRR](https://github.com/Lorenzo-azar/Udacity_DataScientistNanoDegree/Bonus- Starbucks Portfolio Interview Take-Home Assignment/blob/master/data/readme_images/NIR.jpg)
+![alt NIR](https://github.com/Lorenzo-azar/Udacity_DataScientistNanoDegree/blob/main/Bonus-%20Starbucks%20Portfolio%20Interview%20Take-Home%20Assignment/data/readme_images/NIR.jpg)
 
+---
+### Instructions
+1. download the libraries needed
+
+    pip install -r requirements.txt
+
+2. Run the notebook Starbucks.ipynb
+
+### Folder Structure
+    .
+    ├── data                    # includes the train and test raw data.
+    ├── driver                  # includes driver modules (for testing)
+    ├── Starbucks.ipynb         # jupyter notebook solution of the Portfolio Exercise
+    ├── requirements.txt        # includes libraries required to run the notebook
+    └── README.md
 
