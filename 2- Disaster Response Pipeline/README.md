@@ -3,7 +3,7 @@
 
 # Table of Contents
 
-1. [Instructions:](#instructions)
+1. [Instructions](#instructions)
 2. [Summary](#summary)
 3. [File Description](#file-desc)
 4. [Dataset](#data)
@@ -16,14 +16,10 @@
 
 1. Go to the root directory of the project
 2. Install the required packages
+   
+    `pip install -r requirements.txt`
 
-<code>
-pip install -r requirements.txt
-</code>
-
-3. `**You can skip this step if you want to use the files in this repository - we already cleaner and trained the model for you**` 
- 
-- Run the following commands to set up your database and model.
+3. Run the following commands to set up your database and model.
 
     - To run ETL pipeline that cleans data and stores in the database
         `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
