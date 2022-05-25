@@ -10,7 +10,7 @@
 5. [Data Cleaning and Pre-Processing](#data-cleaning)
 6. [Modeling Process](#model)
 7. [Model results](#result)
-
+8. [Webapp Screenshots](#screenshots)
 
 ### Instructions:  <a name="instructions"></a>
 
@@ -102,4 +102,12 @@ The final RandomForestClassifier model with 5 fold cross-validation has the foll
 
 ![Model Result](images/Model_Performance.png)
 
+### Webapp Screenshots <a name="screenshots"></a>
 
+**Landing Page**
+
+![Landing Page](images/Web_App_Landing_Page.png)
+
+**Prediction Example**
+
+![Prediction Example](images/Prediction_Results.png)
