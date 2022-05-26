@@ -100,14 +100,14 @@ def save_data(df, database_filename):
     """
     
     engine = create_engine('sqlite:///' + database_filename)
-    df.to_sql('message_table', engine, index=False)
+    df.to_sql('message_table', engine, index=False, if_exists= 'replace')
 
 
 def main():
     """
     Main Function to run the ETL pipeline
     """
-    
+
     if len(sys.argv) == 4:
 
         messages_filepath, categories_filepath, database_filepath = sys.argv[1:]
