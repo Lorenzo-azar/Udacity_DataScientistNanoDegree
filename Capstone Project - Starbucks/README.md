@@ -7,10 +7,7 @@
 3. [Libraries Used](#libraries)
 4. [File Description](#file-desc)
 5. [Dataset](#data)
-6. [Data Cleaning and Pre-Processing](#data-cleaning)
-7. [Modeling Process](#model)
-8. [Model results](#result)
-9. [Webapp Screenshots](#screenshots)
+6. [Summary](#summary)
 
 ---
 ## Project Overview: <a name="overview"></a>
@@ -66,6 +63,6 @@ HTML version of the notebook.
 - value - (dict of strings) - either an offer id or transaction amount depending on the record
 
 
-## Summary of the results:
+## Summary of the results: <a name="summary"></a>
 
 You can find a summary of the results in this blogpost.
