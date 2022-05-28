@@ -65,4 +65,4 @@ HTML version of the notebook.
 
 ## Summary of the results: <a name="summary"></a>
 
-You can find a summary of the results in this blogpost.
+You can find a summary of the results in [this blog post](https://lorenzo-azar.medium.com/starbucks-capstone-challenge-5d0fd052960f).
